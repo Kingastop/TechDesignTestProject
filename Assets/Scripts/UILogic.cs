@@ -36,8 +36,12 @@ public class UILogic : MonoBehaviour
                 {
                     sprites[i] = candles[i].GetComponentInChildren<SpriteRenderer>();
 
+
                     if (i != 0)
+                    {
                         sprites[i].enabled = false;
+                        candles[i].GetComponentInChildren<Light>().enabled = false;
+                    }
                 }
                 break;
 
