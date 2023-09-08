@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5573575981207970004}
   - component: {fileID: 560100570622359811}
   - component: {fileID: 8952990288113932788}
+  - component: {fileID: 7603589556005769521}
   m_Layer: 0
   m_Name: Music_box
   m_TagString: Untagged
@@ -58,7 +59,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 84b474bd79bff8c4eb3ac7008d241991, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.266
   m_Pitch: 1
   Loop: 1
@@ -143,6 +144,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7603589556005769521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8813958335244670234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4496754ba4886ae44a22d00b014b70e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  notes: []
 --- !u!1001 &7940033857559325531
 PrefabInstance:
   m_ObjectHideFlags: 0

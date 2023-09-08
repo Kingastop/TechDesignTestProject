@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3141983825392472258}
   - component: {fileID: 3141983825392472259}
   - component: {fileID: 3141983825392472257}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Candle_burn_sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -114,7 +114,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1647772132556462565}
-  m_Layer: 0
+  - component: {fileID: 1933894009309968962}
+  - component: {fileID: 3195287310877901896}
+  - component: {fileID: 7199969202121324548}
+  m_Layer: 6
   m_Name: Candle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,3 +140,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1933894009309968962
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7429155715031417248}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.51, y: 3.25}
+  m_EdgeRadius: 0
+--- !u!50 &3195287310877901896
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7429155715031417248}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &7199969202121324548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7429155715031417248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d03a7636e225a64eb6525c3ed45fb9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  candleAnimObj: {fileID: 3141983825392472252}
