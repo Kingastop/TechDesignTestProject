@@ -5,6 +5,7 @@ using UnityEngine;
 public class InteractiveMusicBox : MonoBehaviour
 {
     [SerializeField] GameObject[] notes;
+    [SerializeField] AudioSource ambientAudio;
     private bool playing = false;
     private Animator animator;
     private AudioSource audioSource;
@@ -35,6 +36,8 @@ public class InteractiveMusicBox : MonoBehaviour
         {
             animator.speed = 1;
             audioSource.Play();
+            ambientAudio.volume = 0.075f;
+
             for (int i = 0; i < notes.Length; i++)
             {
                 notes[i].transform.position = notesPos[i];
@@ -46,6 +49,7 @@ public class InteractiveMusicBox : MonoBehaviour
         {
             animator.speed = 0;
             audioSource.Pause();
+            ambientAudio.volume = 0.25f;
 
             for (int i = 0; i < notes.Length; i++)
             {

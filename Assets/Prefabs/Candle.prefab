@@ -199,4 +199,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d03a7636e225a64eb6525c3ed45fb9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  candleAnimObj: {fileID: 3141983825392472252}
+  candleAnimObj: {fileID: 3141983825392472259}

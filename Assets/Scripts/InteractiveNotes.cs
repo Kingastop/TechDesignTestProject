@@ -47,7 +47,7 @@ public class InteractiveNotes : MonoBehaviour
         
         if(colliders != null)
         {
-            collision.GetComponent<PutOutCandle>().candleAnimObj.SetActive(true);
+            collision.GetComponent<PutOutCandle>().candleAnimObj.enabled = true;
             OnMouseUp();
             gameObject.SetActive(false);
         }

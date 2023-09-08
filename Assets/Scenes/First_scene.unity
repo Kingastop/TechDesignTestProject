@@ -980,7 +980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3141983825392472252, guid: b9c43fd49b8b8b443b57cb57737a7b75, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7429155715031417248, guid: b9c43fd49b8b8b443b57cb57737a7b75, type: 3}
       propertyPath: m_Name
@@ -1148,7 +1148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3141983825392472252, guid: b9c43fd49b8b8b443b57cb57737a7b75, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7429155715031417248, guid: b9c43fd49b8b8b443b57cb57737a7b75, type: 3}
       propertyPath: m_Name
@@ -1376,7 +1376,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hintText: {fileID: 612258455}
-  nextLevelBtn: {fileID: 0}
+  nextLevelBtn: {fileID: 1005914416}
   candles:
   - {fileID: 651835496}
   - {fileID: 1567174852}
@@ -1511,7 +1511,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 614ef6a758cf11143869ae095ff3e4e4, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.105
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
   Mute: 0

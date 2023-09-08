@@ -27,7 +27,15 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 1259792252928
-    m_Localized: "\rIt's too early for walks. Wait for dawn and I'll let you in"
+    m_Localized: "\rIt's too early for walks. Wait for dawn and I'll let you out"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16008814804992
+    m_Localized: "\rThen as punishment I order you to put out all these lights"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23451166851072
+    m_Localized: "\rOkay, you can stand here, but I won't let you go any further"
     m_Metadata:
       m_Items: []
   references:

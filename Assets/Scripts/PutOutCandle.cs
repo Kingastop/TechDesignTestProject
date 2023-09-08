@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class PutOutCandle : MonoBehaviour
 {
-    public GameObject candleAnimObj;
+    public SpriteRenderer candleAnimObj;
 
     private void OnMouseDown()
     {
         if (candleAnimObj)
         {
-            candleAnimObj.SetActive(false);
+            candleAnimObj.enabled = false;
         }
     }
 }

@@ -28,6 +28,14 @@ MonoBehaviour:
     m_Key: Transition_to_scene_1
     m_Metadata:
       m_Items: []
+  - m_Id: 16008814804992
+    m_Key: Punishment
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23451166851072
+    m_Key: Another_transition_to_scene_1
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

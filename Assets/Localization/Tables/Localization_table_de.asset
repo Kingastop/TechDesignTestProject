@@ -32,6 +32,14 @@ MonoBehaviour:
       und ich lasse dich rein"
     m_Metadata:
       m_Items: []
+  - m_Id: 16008814804992
+    m_Localized: "\rDann befehle ich dir zur Strafe, all diese Lichter auszul\xF6schen"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23451166851072
+    m_Localized: Okay, du kannst hier stehen, aber ich lasse dich nicht weitergehen
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []
